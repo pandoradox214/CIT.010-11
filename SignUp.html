@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <h2>Sign Up</h2>
+    <form action="signup_process.php" method="post">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="middle_initial">Middle Initial:</label>
+        <input type="text" id="middle_initial" name="middle_initial" maxlength="1"><br><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="contact_number">Contact Number:</label>
+        <input type="tel" id="contact_number" name="contact_number" pattern="[0-9]{10}" placeholder="e.g. 1234567890" required><br><br>
+
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
