@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(193 193 193);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #242266;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap:100px;
+  margin-right: 1000px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: larger ;
+}
+
+.nav-links li a:hover {
+    border-bottom: 2px solid #fbff00;
+}
+
+.profile-dropdown {
+  position: relative;
+}
+
+.profile-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 150px;
+  z-index: 1;
+  right: 0;
+  border-radius: 5px;
+}
+
+.profile-dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: medium;
+  color: white;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #242266;
+  color: yellow;
+}
+
+.profile-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.profile-btn img {
+  width: 40px;
+  height: 40px; 
+  border-radius: 50%; 
+}
+
+
+.footer {
+   background: white;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    font-size: larger ;
+}
+.footer-links a:hover {
+    border-bottom: 2px solid #242266;
+}
+

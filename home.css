@@ -1,0 +1,37 @@
+body, html {
+margin: 0;
+padding: 0;
+}
+.top-section {
+background-image: linear-gradient(180deg, #5182FFDE 87%, rgba(114, 116, 172, 0.83) 100%, #ffffff 20%, rgba(255, 255, 255, 0.45) 100%), url("Assets/Pictures/bghome.jpg");
+background-size: cover;
+background-position: center;
+height: 400px;
+display: flex;
+justify-content: center;
+}
+
+.bottom-section {
+background-color: #f3eeee;
+height: 400px;
+display: flex;
+justify-content:center;
+}
+.content {
+color:white;
+text-align: justify;
+width: 750px;
+height: 100px;
+padding: 20px;
+margin-top: 30px;
+line-height: 1.5;
+}
+.content1 {
+    color:#7074F2;
+    text-align: justify;
+    width: 750px;
+    height: 100px;
+    padding: 20px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
