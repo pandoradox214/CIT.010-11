@@ -40,6 +40,10 @@ body {
     width: 320px;
   }
   
+  #returnToLogin {
+    color: #FFF200;
+  }
+
   .login-panel .register{
     margin-bottom: -40px;
     width: 320px;
@@ -84,6 +88,15 @@ body {
     padding-right: 40px;
     background-color: #FFF200;
     margin-left: -40px;
+    margin-top: -60px;
+  }
+  .yellowSignUp{
+    height: 2px;
+    width: 320px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FFF200;
+    margin-left: -40px;
     margin-top: -40px;
   }
   input[type="submit"]  {
@@ -122,4 +135,18 @@ body {
     height: 30%;
     background-image:  url("Assets/Logo.svg");
     background-repeat: no-repeat;
+    margin-left: -35px;
+  }
+
+  .LogoRegis{
+    position: fixed;
+    top: 30%; 
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 17%;
+    height: 11%;
+    background-image:  url("Assets/Logo.svg");
+    background-repeat: no-repeat;
+    margin-left: -106px;
+    margin-top: -129px;
   }
