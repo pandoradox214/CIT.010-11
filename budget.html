@@ -1,0 +1,43 @@
+<?php ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Input Fields</title>
+    <script>
+        // JavaScript function to add a new input field
+        function addInputField() {
+            var container = document.getElementById("inputContainer");
+            var input = document.createElement("input");
+            input.type = "text";
+            input.name = "dynamicInput[]"; // Use an array to store dynamic inputs
+            container.appendChild(input);
+        }
+
+        // JavaScript function to remove the last input field
+        function removeInputField() {
+            var container = document.getElementById("inputContainer");
+            var inputs = container.getElementsByTagName("input");
+            if (inputs.length > 0) {
+                container.removeChild(inputs[inputs.length - 1]);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Dynamic Input Fields</h1>
+    
+    <form>
+        <div id="inputContainer">
+            <!-- Initially, there are no input fields here -->
+        </div>
+
+        <button type="button" onclick="addInputField()">Add Input Field</button>
+        <button type="button" onclick="removeInputField()">Remove Input Field</button>
+
+        <br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

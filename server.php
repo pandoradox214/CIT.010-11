@@ -40,8 +40,7 @@ if (isset($_POST['reg_user'])){
         if ($user['email'] === $email) {
             array_push($errors, "Email already exists");
         }
-    }
-    
+    }    
 
     if (count($errors) == 0) {
         $password = md5($password_1); //encrypt the password before saving in the database
@@ -56,10 +55,6 @@ if (isset($_POST['reg_user'])){
     //     $username = mysqli_real_escape_string($db, $_POST['username']);
     //     $password = mysqli_real_escape_string($db, $_POST['password']);
     // }
-
-
-
-
 
 }
 
